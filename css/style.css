@@ -2,7 +2,16 @@
 
 /* link the web font used for the level 1 heading here */
 
+@font-face {
+	font-family: "Inria Serif";
+	src: url('https://fonts.google.com/specimen/Inria+Serif');
+}
+
 /*////////// Global Styles //////////*/
+
+* {
+	margin: 0;
+}
 
 body {
 	background: #F3EBE9;
@@ -18,3 +27,68 @@ body {
 }
 
 /* Write all remaining styles here */
+
+h1, h2 {
+	font-family: "Baskerville", "Times New Roman", serif;
+	color: #697873;
+}
+
+h2 {
+	padding: 12px 0px;
+}
+
+h1 {
+ 	color: #9AADA7;
+	font-family: 'Inria Serif';
+	font-size: 3.5rem;
+}
+
+header {
+	padding: 20px 0px 5px;
+}
+
+p {
+	padding: 0px 0px 10px 0px;
+}
+
+a {
+	text-decoration: none;
+	color: #73a796;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #697873;
+}
+
+a img {
+	border-width: 3px;
+	border-style: solid;
+	border-color: #9AADA7;
+	transition: border-color 2s ease-out;
+}
+
+a img:hover {
+	border-width: 3px;
+	border-style: solid;
+	border-color: #697873;
+}
+
+hr {
+	color: #cee1db;
+	opacity: 0.5;
+	width: 955px;
+}
+
+.featured img {
+	border-width: 3px;
+	border-style: solid;
+	border-color: #9AADA7;
+	width: fit-content;
+}
+
+footer p {
+	padding: 20px 0px;
+	text-align: right;
+	font-size: small;
+}
